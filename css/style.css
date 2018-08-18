@@ -1,0 +1,26 @@
+.section-title_1{
+	color:#336655;
+	
+}
+.section-title_2{
+	color:blue;
+}
+.section-title_3{
+	color:red;
+}
+h3{
+	font-size:20px
+
+}
+p {
+	
+	    font-weight: lighter;
+	}
+.login{
+	    text-align: center;
+
+}
+.section-title_3 ul li ol{
+	color:#001;
+	font-size:10px
+}

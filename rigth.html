@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ua-UA">
+	<link rel="shortcut icon" href="image/1.ico" type="image/x-icon">
+	<head>
+		<meta charset="utf-8" />
+		<title>Portfolio</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body bgcolor="#cacacc">
+		
+		<hr color= "red" />
+		<div>
+			
+			<div>
+				<h3 class="section-title_3">Мапа сайту</h3>
+				<ul>
+					<li> <a target="body" href="body.html" >Головна</a> </li>
+					<li> <a target="body" href="my.html">Про мене</a> </li>
+					<li> <a target="body" href="mycompany.html">Про компанію</a> </li>
+					<li> <a target="body" href="contact.html">Контакти</a> </li>
+					<li> <a target="body" href="map.html">ми на мапі</a> </li>
+				</ul>
+			</div>
+		</div>
+		<div>
+			<h2 class="section-title_2"> </h2>
+			<form action="order.php" method="post">
+				<lable>Введіть імя<br />
+					<input type="text" name="client_name" id="client_name"  plaseholder="Введіть імя">
+				</lable>
+				<lable>Введіть email<br />
+					<input type="text" name="client_email" id="client_email"  plaseholder="Введіть email">
+				</lable>
+				<lable>Виберіть вашу стать<br />
+					<input type="radio" name="gendre" value="male"> М
+					<input type="radio" name="gendre" value="female"> Ж
+					<input type="radio" name="gendre" value="other"> Інше
+				</lable>
+				<div >
+					<input type="submit" id="submit_client" value="Enter">	
+					<input type="reset" id="submit_client" value="Reset">	
+				</div>
+			</form>
+		</div>	
+		
+		
+	</body>
+</html>
