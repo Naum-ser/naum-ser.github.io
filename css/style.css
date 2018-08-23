@@ -1,3 +1,81 @@
+.head1{
+	width:700px;
+	margin:0 auto;
+
+}
+body{
+	 background-color:#cacacc;
+}
+.info{
+	display:block;
+	width:38%;
+	float: right;
+	border: 1px solid green;
+	padding: 2px 2px;
+	margin: 5px;
+	font-size: 20px
+}
+.description{
+	display:block;
+	width:39%;
+	float: right;
+	border: 1px solid blue;
+	padding: 10px 15px;
+	margin: 5px;
+}
+.element{
+	display:block;
+	width:58%;
+	float: left;
+	border: 1px solid red;
+/*	padding: 10px 15px;*/
+	margin: 5px;
+}
+
+
+
+
+.float1{
+	display:block;
+	width:40%;
+	float: left;
+	border: 1px solid red;
+	padding: 10px 15px;
+	margin: 5px;
+
+}
+.float12{
+	display:block;
+	width:49%;
+	float: right;
+	border: 1px solid green;
+	padding: 10px 15px;
+	margin: 5px;
+	
+}
+.clear{
+	clear: both;
+}
+.float132{
+	display:inline-block;
+	width:38%;
+	
+	border: 1px solid green;
+	padding: 10px 15px;
+	margin: 5px;
+	
+}
+.float142{
+	display:block;
+	width:38%;
+	position: absolute;
+	top: 20px;
+
+	border: 1px solid green;
+	padding: 10px 15px;
+	margin: 5px;
+	
+}
 .section-title_1{
 	color:#336655;
 	
